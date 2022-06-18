@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <div id="header">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input id="unit-value">
+            <button id="convert-btn">Convert</button>
+        </div>
+    </head>
+    <body>
+        <div id="conversion-section">
+            <div class="part-conversion">
+                <div id="length-el">Length (Meter/Feet)</div>
+                <div id="length-display" class="con-calc">
+                    1 meters = 3.281 feet | 1 feet = 0.305 meters
+                </div>
+            </div>
+            <div class="part-conversion">
+                <div id="volume-el">Volume (Liters/Gallons)</div>
+                <div id="volume-display" class="con-calc">
+                    1 liters = 0.264 gallons | 1 gallons = 0.264 liters
+                </div>
+            </div>
+            <div class="part-conversion">
+                <div id="mass-el">Mass (Kilograms/Pounds)</div>
+                <div id="mass-display" class="con-calc">
+                    1 kilograms = 2.204 pounds | 1 pounds = 2.204 kilograms
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
